@@ -3,7 +3,7 @@ import { UIContext, uiReducer } from './';
 
 export interface UIState {
     sidemenuOpen: boolean;
-    children?: PropsWithChildren;
+    children?: ReactNode;
 }
 
 
